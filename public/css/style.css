@@ -1,0 +1,97 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav div img{
+    width: 100px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(245, 245, 220, 0);
+}
+nav ul li a:hover{
+    border-bottom: 1px solid blue;
+    color: aliceblue;
+}
+
+nav1{
+    background-color: rgb(42, 120, 172);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    background: linear-gradient(-45deg, #bbc8ee, #bbe0ff, #23a6d5, #237fd5);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+}
+nav1 div {
+    margin: 50px;
+    font-weight: 600;
+
+}
+nav1 div h1{
+    font-family: Impact;
+    padding: 1rem;
+}
+nav1 div span{
+    font-family: 'Segoe UI', Tahoma;
+    padding: 1rem;
+
+}
+
+nav1 img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+nav2{
+    padding: 5rem;
+}
+
+
+
+
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
